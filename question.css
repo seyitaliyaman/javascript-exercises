@@ -1,0 +1,37 @@
+#questionList {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    list-style-type: none;
+}
+
+.arrow {
+    cursor: pointer;
+}
+
+
+
+.arrow:hover{
+    background-color: yellow;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.arrow::before {
+    content: "\25B6";
+    color: black;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.arrow-down::before {
+    transform: rotate(90deg);
+}

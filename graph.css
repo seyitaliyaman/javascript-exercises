@@ -1,0 +1,12 @@
+#graph {
+    display: table;
+    width: 100px;
+    height: 200px;
+}
+
+.bar-cell {
+    display: table-cell;
+    vertical-align: bottom;
+    color: #fff;
+    text-align: center;
+}
